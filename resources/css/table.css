@@ -1,0 +1,54 @@
+/* Custom table styling */
+.custom-table {
+    background-color: #ffffff;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add spacing between rows */
+.custom-table tbody tr {
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect on rows */
+.custom-table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Styling for table headers */
+.custom-table thead th {
+    background-color: #343a40;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Add padding to table cells */
+.custom-table tbody td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+/* Action buttons styling */
+.custom-table .action-buttons .btn {
+    margin-right: 5px;
+    transition: all 0.2s ease;
+}
+
+.custom-table .action-buttons .btn:hover {
+    transform: scale(1.1);
+}
+
+/* Make table fully responsive on mobile */
+@media (max-width: 768px) {
+    .custom-table tbody td {
+        padding: 8px;
+    }
+
+    .custom-table .action-buttons .btn {
+        font-size: 12px;
+    }
+}

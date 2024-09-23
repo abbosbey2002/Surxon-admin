@@ -15,14 +15,14 @@
 </head>
 
 <body>
-    <div class="d-flex">
+    <div class="row">
         <!-- Sidebar Component -->
         <x-sidebar />
 
         <!-- Main Content -->
-        <div class="content">
-            <header class="d-flex justify-content-between align-items-center">
-                <h1>@yield('header', 'Dashboard')</h1>
+        <div class="content col-11">
+            <header class="d-flex border justify-content-between align-items-center">
+                <h1 class="">@yield('header', 'Dashboard')</h1>
                 <button id="toggleSidebar" class="btn btn-dark">Toggle Sidebar</button>
             </header>
 

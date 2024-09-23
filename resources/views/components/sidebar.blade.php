@@ -1,4 +1,4 @@
-<nav class="sidebar">
+<nav class="sidebar col-1">
     <h2 class="text-light text-center py-4">Admin</h2>
     <ul class="nav flex-column">
         <li class="nav-item">
